@@ -1,6 +1,9 @@
 :root{
   --bg-body: #083b4c;
   --bg-box: #1389b2;
+  --bg-green-box: #0cd6a1;
+  --bg-yellow-box: #ffd166;
+  --bg-red-box: #f0466f;
 }
 
 body{
@@ -20,4 +23,16 @@ h1{
   margin: 10px;
   font-size: 25px;
   background-color: var(--bg-box);
+}
+
+.bg-green{
+  background-color: var(--bg-green-box);
+}
+
+.bg-yellow{
+  background-color: var(--bg-yellow-box);
+}
+
+.bg-red{
+  background-color: var(--bg-red-box);
 }
