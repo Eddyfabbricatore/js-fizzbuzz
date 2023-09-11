@@ -1,0 +1,23 @@
+:root{
+  --bg-body: #083b4c;
+  --bg-box: #1389b2;
+}
+
+body{
+  background-color: var(--bg-body);
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 10 - 20px);
+  height: 100px;
+  margin: 10px;
+  font-size: 25px;
+  background-color: var(--bg-box);
+}
