@@ -1,5 +1,6 @@
 :root{
   --bg-body: #083b4c;
+  --title: #fff;
   --bg-box: #1389b2;
   --bg-green-box: #0cd6a1;
   --bg-yellow-box: #ffd166;
@@ -12,6 +13,7 @@ body{
 
 h1{
   font-size: 5rem;
+  color: var(--title);
 }
 
 .box{
